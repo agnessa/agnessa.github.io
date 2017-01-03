@@ -1,0 +1,128 @@
+body{
+  font-family:verdana,arial,sans serif;
+  margin:0px;
+  margin-top:0px
+}
+
+#main-container{
+  margin-left:50px;
+  margin-right:50px;
+  margin-top:25px;
+}
+
+.clear-float{
+  clear:both;
+}
+
+a {
+  color: #0909CC;
+  text-decoration: none;
+  border-bottom: 1px dotted #0909CC;
+  font-size: 10px;
+}
+
+  a:visited { color: #0909FF; border-bottom-color: #0909FF; }
+	
+  a:hover { color: #FF0909; border-bottom-color: #FF0909; }	
+
+
+
+#header-box{
+  margin: 0px;
+  border: 1px solid #FFFFFF;
+  position: relative;
+  top:10px;
+  left:20px;
+  z-index: 1;
+  width:226px;
+}
+
+#header-stripe{
+  background: #000000;
+  #margin: 0px;
+  margin-left:0px;
+  #margin-right:0px;
+  position: relative;
+  top: -100px;
+  left: 0px;
+  z-index: 0;
+  height: 65px;
+}
+
+#header-title{
+  position:relative;
+  left: 300px;
+  width: 500px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 32px;
+}
+#header-subtitle{
+  position:relative;
+  left: 350px;
+  width: 450px;
+  color: #FFFFFF;
+  font-family: verdana,arial,sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.box{
+  background: #FFFFFF;
+  margin: 0px;
+  border: 1px solid #000000;
+  position: relative;
+  left: 300px;
+  z-index: 1;
+  width: 30%;
+  height: 30px;
+}
+
+.box-text{
+  position:relative;
+  left: 15px;
+  top: 5px;
+  color: #000000;
+  font-family: verdana,arial,sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.stripe{
+  background: #000000;
+  margin: 0px;
+  position: relative;
+  top: -25px;
+  z-index: 0;
+  height: 15px;
+  margin-left:250px;
+}
+
+.my-text{
+  positon: relative;
+  top: 5px;
+  z-index: 0;
+  margin-left:250px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  width: 500px;
+}
+
+#footer-stripe{
+  background: #000000;
+  margin: 0px;
+  position: relative;
+  top: 0px;
+  z-index: 0;
+  height: 20px;
+  text-align:center;
+  text-valign: middle;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+#footer-stripe a{
+  color: #CCCCCC;
+  border-bottom: 1px dotted #CCCCCC;
+}
+
